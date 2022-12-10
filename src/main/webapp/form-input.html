@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Forms in HTML - Inputs</title>
+	</head>
+	<body>
+		<h2>Employee Form </h2>
+	    <form id="myForm" name="HTMLForm" action="FormProcessingServlet" method="POST">
+	      First Name : <input type="text" id="firstName" name="FirstName" value="Kavana" size="10" placeholder="First Name" required/>
+	      <br/>
+	      Last Name : <input type="text" id="lastName" name="LastNmae" value="" size="10" placeholder="Last Name" required/>
+	      <br/>
+	      Address : <textarea id="address" name="Address" rows="5" cols="50" placeholder="Your address" required>02B100, WeWork Galaxy,
+	  43 Residency Road,Bengaluru, INDIA</textarea>
+	    <br/>
+	      <label for="gender">Gender : </label>
+	      <input type="radio" id="gender" name="gender" value="M" onclick="changeGender();">Male</input>
+	      <input type="radio" id="gender" name="gender" value="F" onclick="changeGender();">Female</input>
+	      <input type="radio" id="gender" name="gender" value="T" onclick="changeGender();">Transgender</input>
+	      <input type="radio" id="gender" name="gender" value="L" onclick="changeGender();">LGBT</input>
+	      <br/>
+	      <label for="language">Languages Known : </label>
+	      <input type="checkbox" id="language" name="language" value="E" checked>English</input>
+	      <input type="checkbox" id="language" name="language" value="F">French</input>
+	      <input type="checkbox" id="language" name="language" value="G">Germany</input>
+	      <br/>
+	      <label for="favLang">Fav Language : </label>
+	      <select id="favLang" name="favLang">
+	        <option value="-1">-- Select --</option>
+	        <optgroup label="Programming">
+	          <option value="1" selected>C</option>
+	          <option value="2">C++</option>
+	          <option value="3">Java</option>
+	          <option value="4">Python</option>
+	          <option value="5">Kotlin</option>
+	        </optgroup>
+	        <optgroup label="Web">
+	          <option value="6">HTML</option>
+	          <option value="7">XML</option>
+	          <option value="8">YAML</option>
+	        </optgroup>
+	      </select>
+	      <br/>
+	      <label for="email">Email : </label>
+	      <input type="email" id="email" name="email" value="admin@example.org"/>
+	      <br/>
+	    <input type="submit" name="Process" value="Register" onclick="validate();"/>
+	    <input type="reset" id="reset" name="reset" size="20" value="Reset" />
+	    </form>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+div.pro{
+ 
+    display: flex;
+     justify-content: space-between;
+    }
+
+  #my{
+	background:none;
+	  border:none;
+	   margin-left: 1035px;
+}
+div.pro h3{
+	color:white;
+}
+#img{
+	border-radius:20px;
+}
+#logout{
+	background:none;
+	  border:none;
+	  margin-top:15px;
+	  
+}
+div.DIV{
+	background-color:black;
+}
+#kantara{
+	background:none;
+	  border:none;
+}
+div.KAN{
+	background-image: url(https://th.bing.com/th/id/OIP.zHWJGyJfkHtR_Hi4AXygMAHaEH?w=278&h=180&c=7&r=0&o=5&pid=1.7);
+	background-size: cover;
+	display: flex;
+	
+}
+div.kan{
+	background-color:black;
+	display: flex;
+}
+div.kan h3{
+	color:white;
+}
+ #myy{
+	background:none;
+	  border:none;
+	   margin-left: 1010px;
+}
+
+#lout{
+	background:none;
+	  border:none;
+	  margin-top:15px;
+}
+#one{
+	border-radius:20px;
+	  margin-left: 10px;
+	  margin-top:20px;
+	  margin-bottom:20px;
+}
+div.poster{
+	display: flex;
+}
+#share{
+	 margin-left: 700px;
+}
+div.names{
+	 margin-left: 20px;
+}
+div.pro{
+	background-color:#3f3f3f;
+	
+}
+#GG{
+	background:none;
+	  border:none;
+}
+div.image{
+	 display: flex;
+}
+div.GUDI{
+	background-image: url(https://images.newindianexpress.com/uploads/user/imagelibrary/2021/12/3/w900X450/FFq4KHMVIAQEOow.jpg);
+	background-size: cover;
+	display: flex;
+	
+}
+#ADD{
+	background:none;
+	  border:none;
+}
+#BOOK{
+	background-color:black;
+	color:white;
+	   padding: 10px;
+	   border-radius:10px;
+}
